@@ -1,0 +1,8 @@
+.error__container {
+  width: 100vw;
+  height: 100vh;
+}
+.error__title {
+    text-align: center;
+    padding-top: 400px;
+}

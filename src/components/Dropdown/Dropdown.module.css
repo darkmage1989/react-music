@@ -1,0 +1,48 @@
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  max-height: 300px;
+  width: 220px;
+  overflow-x: auto;
+  border-radius: 10px;
+  border: 25px solid #383838;
+  background-color: #383838;
+  box-sizing: border-box;
+}
+.item {
+  padding-bottom: 25px;
+}
+.item:hover {
+  text-decoration: underline;
+  color: #ad61ff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.dropdown__input {
+  margin-right: 10px;
+}
+.dropdown__input:checked {
+  background-color: #d9d9d9;
+}
+
+.dropdown__year {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 320px;
+  height: 80px;
+}
+.dropdown::-webkit-scrollbar {
+  width: 5px;
+}
+.dropdown::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: gray;
+  border-radius: 10px;
+}
+.dropdown::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: white;
+}
